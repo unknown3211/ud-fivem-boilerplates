@@ -1,2 +1,7 @@
 # ud-boilerplates
- UnKnownDevelopment FiveM Boilerplates
+ 
+UnKnownDevelopment FiveM Boilerplates
+
+NPM I
+NPM RUN BUILD
+NPM RUN WATCH

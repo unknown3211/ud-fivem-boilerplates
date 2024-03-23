@@ -1,0 +1,44 @@
+Arguments: 
+  D:\UD-NP-4.0New\FivemART\FXServer.exe D:\UD-NP-4.0New\resources\[cfx-default]\[system]\[builders]\yarn\yarn_cli.js install --ignore-scripts --cache-folder D:\UD-NP-4.0New\cache\yarn-cache --mutex file:D:\UD-NP-4.0New\cache\yarn-mutex
+
+PATH: 
+  C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git LFS;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\UnKnown\AppData\Local\Programs\Python\Launcher\;C:\Users\UnKnown\AppData\Local\Microsoft\WindowsApps;C:\Users\UnKnown\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\UnKnown\AppData\Roaming\npm;C:\Users\UnKnown\AppData\Local\GitHubDesktop\bin;C:\Users\UnKnown\.dotnet\tools
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  16.9.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\UD-NP-4.0New\resources\[dev]\ud-typescript\node_modules\@esbuild\win32-x64\esbuild.exe'
+
+npm manifest: 
+  {
+  	"name": "name",
+  	"version": "1.0.0",
+  	"description": "",
+  	"scripts": {
+  		"build": "node ./prod.build.js",
+  		"watch": "esbuild --watch --bundle --minify --platform=browser --target=es2020 --outdir=build ./client/*.ts ./server/*.ts"
+  	},
+  	"keywords": [],
+  	"author": "",
+  	"license": "ISC",
+  	"devDependencies": {
+  		"@citizenfx/client": "^2.0.6947-1",
+  		"@citizenfx/server": "^2.0.6947-1",
+  		"@types/node": "^20.8.9",
+  		"esbuild": "^0.19.5",
+  		"typescript": "^5.2.2"
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
