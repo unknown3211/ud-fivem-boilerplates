@@ -1,8 +1,7 @@
 fx_version "cerulean"
 game 'gta5'
-description "UnKnownDevelopment React Tsx Template With Tailwind"
-author "UnKnownJohn"
-version '1.0.0'
+author 'UnKnownJohn'
+description 'UD React Boilerplate'
 
 lua54 'yes'
 

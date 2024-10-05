@@ -11,9 +11,8 @@ debugData([
 ]);
 
 const App: React.FC = () => {
-  useNuiEvent("setVisible", (data: any) => {
-    console.log("setVisible", data);
-  });
+  
+  useNuiEvent("setVisible", (data: any) => {});
 
   return (
     <div className="App">
